@@ -1,0 +1,39 @@
+:root {
+    --fuentePrincipal: 'Spartan', sans-serif;
+    --magentaOscura: hsl(300, 43%, 22%);
+    --rosaSuave: hsl(333, 80%, 67%);
+    --grisMagenta: hsl(303, 10%, 53%);
+    --grisSuave: hsl(300, 24%, 96%);
+    --blanco: hsl(0, 0%, 100%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+/* -------------- */
