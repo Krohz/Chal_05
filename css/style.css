@@ -166,7 +166,7 @@ p {
     .opiniones{
         grid-template-rows: unset;
         grid-template-columns: repeat(3,1fr);
-        margin-top: 15rem;
+        margin-top: 7rem;
         margin-bottom: 15rem;
     }
 }
